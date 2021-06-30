@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Out of Sight</title>
+
+    <!-- = = = links  = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+    <!-- = = = favicon error  = = = -->
+    <link rel="shortcut icon" href="#" />
+
+    <!-- = = = font awesome css = = = -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- = = = google fonts  = = = -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- = = = bootstrap css = = = -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- = = = fullpage css = = = -->
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+
+    <!-- = = = annimated modal css  = = = -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- = = = date picker css  = = = -->
+    <link rel="stylesheet" href="css/datepicker.css">
+
+    <!-- = = = mapbox script js and css  = = = -->
+    <script src="js/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="css/mapbox-gl.css">
+
+    <!-- = = = custom css  = = = -->
+    <link rel="stylesheet" href="css/custom.min.css">
+
+  </head>
+
+  <body>
+
+    <!-- = = = loader container = = = = = = = = = = = = = = = = = = = = = = = -->
+
+    <div class="loader-container">
+      <div class="sec-loader">
+        <svg class="star-spinner" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+          <path d="M14 50A36 36 0 0 0 86 50A36 38.3 0 0 1 14 50" fill="#f06839" stroke="none">
+            <animateTransform attributeName="transform" type="rotate" dur="1.075268817204301s" repeatCount="indefinite" keyTimes="0;1" values="0 50 51.15;360 50 51.15"></animateTransform>
+          </path>
+        </svg>
+  	   </div>
+  	</div>
+
+    <!-- = = = fullpage container = = = = = = = = = = = = = = = = = = = = = =  -->
+    <div id="fullpage">
+      <!-- = = = section 1 container = = = = = = = = = = = = = = = = = = = = = -->
+      <div class="section section1">
+        <video autoplay loop class="starVid" muted>
+          <source src="img/galexy-vid-test.mov" type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+        <div class="sec1-title">
+          <h3>Star Gazing Accomodation and Excursions</h3>
+        </div>
+        <button class="nasa-btn btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Click to view Nasa's image of the day!">
+          <i class="fa fa-picture-o"></i>
+        </button>
+        <img class="sec1-logo" src="img/deep-orange-logo.svg" alt="Out of Sight logo artwork">
+        <img class="sec1-tnz-logo" src="img/tnz-logo.png" alt="Toursim NZ logo artwork">
+        <img class="sec1-arrow" src="img/white-arrow.svg" alt="White navigation arrow">
+      </div>
+
+      <!-- = = = section 2 container = = = = = = = = = = = = = = = = = = = = = -->
+      <div class="section section2">
+        <!-- = = = slider container = = = -->
+        <div id="slider">
+          <!-- = = = slide 1 container = = = -->
+          <div class="slide">
+            <div class="row align-items-start sec2">
+              <!-- container div -->
+              <div class="col sec2-col1" data-parsley-validate>
+                <h1>01</h1>
+                <img class="sec2-logo" src="img/butter-logo.svg" alt="Out of Sight logo artwork">
+                <h3 class="sec2-title">Select Guests</h3>
+                <h4>Add the amount of guests</h4>
+                <input class="guest-qty form-control" required data-parsley-type="number" type="number" data-parsley-min="1" data-parsley-max="4" name="guests">
+                <button class="guest-btn btn-primary">
+                  Submit
+                </button>
+                <h3 class="guest-text">*Please add between 1-4 guests</h3>
+              </div>
+            </div>
+            <!-- = = = end of slide 1 container = = = -->
+          </div>
+
+
+          <!-- = = = section 3 container = = = = = = = = = = = = = = = = = = = =  -->
+          <div class="section3">
+            <!-- = = = slide 2 container = = = -->
+            <div class="slide">
+              <div class="row align-items-start sec3">
+                <div class="col sec3-col">
+                  <h1>02</h1>
+                  <div class="sec3-container">
+                    <img class="sec3-logo" src="img/deep-orange-logo.svg" alt="Out of Sight logo artwork">
+                    <h3 class="sec3-title">Select Dates</h3>
+                    <h4>Choose your check in and out dates</h4>
+                    <input class="date-picker" type="text" name="datefilter" value="click to select your date"/>
+                    <h3 class="days-text">*Please select between 1-15 nights</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- = = =  end of slide 2 container = = = -->
+            </div>
+            <!-- = = =  end of section 3 container = = = -->
+          </div>
+
+          <!-- = = = section 4 container = = = = = = = = = = = = = = = = = = =   -->
+          <div class=" section4">
+            <!-- = = = slide 3 container = = = -->
+            <div class="slide">
+              <!-- = = = sec4 container = = = -->
+              <div class="row align-items-start sec4">
+                <!-- = = = sec4-col1 container = = = -->
+                <div class="col sec4-col1">
+                  <div class="sec4-content">
+                    <h1 class="sec4-num">03</h1>
+                    <h1 class="sec4-text">Select your Star Gazing Accomodation</h1>
+                    <h5 class="sec4-subtext">Click the orange dots on the map to view Dark Sky Reserves</h5>
+                    <button class="location-btn demo02" href="#modal-02">Select</button>
+                  </div>
+
+                  <!-- = = = acc1 container = = = -->
+                  <div class="acc1">
+                    <h3 class="acc-tile" >Pure Pod Accomodation</h3>
+                    <img class="acc-img" src="img/purepod-img.jpeg" alt="pure pod accomodation photograph">
+                    <div class="acc-rating">
+                      <h4>$157.00</h4>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>
+                      You’ll fall in love with the Pure Pod! The first thing you'll
+                      notice about your PurePod is its heavenly and private location
+                      with Wanaka’s dark sky reserve. Each glass eco-cabin is designed
+                      to ensure you experience nature's show vividly. Better still, your
+                      PurePod is luxurious, warm and immaculately styled. It's an
+                      unforgettable New Zealand experience that enables you to
+                      connect with nature. Available for 1-2 guests. 1 queen bed.
+                     </p>
+                    <button class="acc1-btn location-btn demo02" href="#modal-02">
+                      Select
+                    </button>
+                  </div>
+                  <!-- = = = acc2 container = = = -->
+                  <div class="acc2">
+                    <h3 class="acc-tile">Starry Nights Hostel</h3>
+                    <img class="acc-img" src="img/hostel-img.jpeg" alt="pure pod accomodation photograph">
+                    <div class="acc-rating">
+                      <h4>$30.00</h4>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>
+                      6 person dormitories, a fully equipped kitchen, a spacious
+                      dining and lounge area. Each guest receives a locker, reading
+                      lamp, towel and bedding. Make use of the guest veggie garden
+                      and outdoor picnic area. Situated within a dark sky reserve.
+                      Events are held every second night at the hostel bar. You’ll
+                      absolutely love your stay at the Starry Nights boutique hostel.
+                    </p>
+                    <button class="acc2-btn location-btn demo02" href="#modal-02">
+                      Select
+                    </button>
+                  </div>
+                  <!-- = = = acc3 container = = = -->
+                  <div class="acc3">
+                    <h3 class="acc-tile">Orions Cottage</h3>
+                    <img class="acc-img" src="img/cottage-img.jpg" alt="pure pod accomodation photograph">
+                    <div class="acc-rating">
+                      <h4>$240.00</h4>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                      Set among the backdrop of a Lake, Orions Cottage is a self
+                      contained luxury stay. Relax and enjoy your own personal
+                      retreat in a magnificent lake setting. The cottage is fully
+                      equipped with all the essentials one may need for their stay.
+                      Youll have access to a heated outdoor natural spring spa.
+                      The 3 bedroom cottage sleeps up to 4 people, with 1 queen
+                      ensuite and 2 single beds.
+                    </p>
+                    <button class="acc3-btn location-btn demo02" href="#modal-02">
+                      Select
+                    </button>
+                  </div>
+                  <!-- = = = acc4 container = = = -->
+                  <div class="acc4">
+                    <h3 class="acc-tile">Glamping Accomodation</h3>
+                    <img class="acc-img" src="img/glamping-img.jpeg" alt="pure pod accomodation photograph">
+                    <div class="acc-rating">
+                      <h4>$90.00</h4>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                      Expect fresh coastal air and pure relaxation. The tents are
+                      placed atop a sunny hilltop with outdoor baths and luxurious
+                      furnishings inside. This is your chance to step away from
+                      the daily stresses of life. Self-catering is easy with
+                      the fully equipped kitchen and bbq. Or you can let your
+                      hosts take care of catering with a private chef. Available
+                      for 2-4 people, 3 beds.
+                    </p>
+                    <button class="acc4-btn location-btn demo02" href="#modal-02">
+                      Select
+                    </button>
+                  </div>
+                  <!-- = = = end of sec4-col1 container = = = -->
+                </div>
+
+                <!-- = = = sec4-col2 container = = = -->
+                <div class="col sec4-col2">
+                  <div id="map" class="dark"></div>
+                  <img class="sec4-logo" src="img/butter-logo.svg" alt="Out of Sight logo artwork">
+                  <!-- = = = end of sec4-col1 container = = = -->
+                </div>
+
+                <!-- = = = end of sec4 container = = = -->
+              </div>
+              <!-- = = = end ofslide 3 container = = = -->
+            </div>
+            <!-- = = =  end of section 4 container = = = -->
+          </div>
+          <!-- = = = end of slider container = = = -->
+        </div>
+        <!-- = = = end of section 2 container = = = -->
+      </div>
+
+
+      <!-- = = = section 5 container = = = = = = = = = = = = = = = = = = = = = -->
+
+      <div class="section section5">
+        <div class="row align-items-start sec5">
+          <div class="col sec5-col">
+            <h1>06</h1>
+            <img class="sec5-logo" src="img/butter-logo.svg" alt="Out of Sight logo artwork">
+            <div class="sec5-container">
+              <h3>Your Reservation Details</h3>
+              <h4 class="sec5-name">Accomodation Name</h4>
+              <h4 class="sec5-acc-cost">Accomodation Cost:</h4>
+              <img class="sec5-img" src="data:," alt="Reservation image">
+              <h4 class="sec5-guest">Guests:</h4>
+              <h4 class="sec5-date">Dates:</h4>
+              <h4 class="sec5-exc-cost">Excursion Cost</h4>
+              <img class="star-img" src="img/star-img.png" alt="Star artwork">
+            </div>
+            <h3 class="sec5-total">Totals:</h3>
+          </div>
+        </div>
+        <!-- = = = end of section 5 container = = = -->
+      </div>
+
+      <!-- = = = section 6 container = = = = = = = = = = = = = = = = = = = = = -->
+
+      <div class="section section6">
+
+        <div class="row align-items-start sec6">
+          <div class="col sec6-col">
+            <h3 class="sec6-title">Nasa Picture of the Day</h3>
+            <button class="api-btn" type="button" name="button">
+              Click Me
+            </button>
+            <button class="sec6-btn" type="button" name="button">
+              Home
+            </button>
+            <div class="api-content"></div>
+          </div>
+          <div class="col sec6-col2">
+            <div class="api-img"></div>
+          </div>
+        </div>
+        <!-- = = = end of section 6 container = = = -->
+      </div>
+
+      <!-- = = = end of fullpage container = = = -->
+    </div>
+
+    <!-- = = = modal  = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+    <div id="modal-02">
+      <!-- = = = modal-container  = = = = = = = = = = = = = = = = = = = = = = -->
+      <div class="modal-container">
+        <div class="modal-section">
+          <div class="row align-items-start">
+            <div class="col num">
+              <h1>01</h1>
+              <div class="exc-content exc1">
+                <h3>Under the Stars</h3>
+                <img class="ex1-image" src="img/ex1-img.png" alt="">
+                <p>
+                  Spend an evening with friends camping under a blanket of stars
+                  in the sky. We take cozy blankets, digital star maps and readers
+                  to the beach. Bon fire and marshmallows included.
+                </p>
+                <h1 class="exc-cost">$50</h1>
+                <input class="exc-input exc1-qty" type="number" name="excusion1" value=0>
+              </div>
+            </div>
+            <div class="col num">
+              <h1>02</h1>
+              <div class="exc-content exc2">
+                <h3>Mountain Moonlights</h3>
+                <img class="exc-input ex1-image" src="img/ex2-img2.jpg" alt="">
+                <p>
+                  Depending on your accomodation location, we take you to the
+                  nearest mountain or hill for an luscious evening of star gazing.
+                  You’ll feel close to reaching them!
+                </p>
+                <h1 class="exc-cost">$60</h1>
+                <input class="exc-input exc2-qty" type="number" name="excusion2" value=0>
+              </div>
+              <button class="close-modal-02 exc-btn">
+                Submit
+              </button>
+            </div>
+            <div class="col num">
+              <h1>03</h1>
+              <div class="exc-content exc3">
+                <h3>Telescope and Tea</h3>
+                <img class="ex1-image" src="img/ex3-img.jpg" alt="">
+                <p>
+                  Using advanced telescopes, you will spend and evening at the
+                  nearest dark sky reserve to your accomodation, studying otherworldly
+                  constellations. Homemade bush tea included!
+                </p>
+                <h1 class="exc-cost">$70</h1>
+                <input class="exc-input exc3-qty" type="number" name="excusion3" value=0>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- = = = end of modal-container  = = = -->
+      </div>
+      <!-- = = = end of modal  = = =  -->
+    </div>
+
+    <!-- = = = javascript links  = = = = = = = = = = = = = = = = = = = = = =  -->
+
+    <!-- = = = jquery js  = = =  -->
+    <script src="js/jquery.js"></script>
+    <!-- = = = fullpage js  = = =  -->
+    <script src="js/jquery.fullpage.js"></script>
+
+    <!-- = = = popper js  = = =  -->
+    <script src="js/popper.js"></script>
+    <!-- = = = bootstrap js  = = =  -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- = = = annimated modal js  = = =  -->
+    <script src="js/animatedModal.js"></script>
+
+    <!-- = = = date picker js  = = =  -->
+    <script src="js/moment.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+
+    <!-- = = =  parsley js  = = =  -->
+    <script src="js/parsley.js"></script>
+
+    <!-- = = = custom javascript links  = = = = = = = = = = = = = = = = = =  -->
+
+    <!-- = = = custom data js  = = =  -->
+    <script src="js/data.js"></script>
+    <!-- = = = custom js  = = =  -->
+    <script src="js/custom.js"></script>
+
+  </body>
+
+</html>

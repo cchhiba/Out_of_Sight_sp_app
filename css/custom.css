@@ -1,0 +1,702 @@
+/* custom css written here: */
+
+/* = = = set up and reset = = = = = = = = = = = = = = = = = = = = = = = = =  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto', 'Questrial', 'sans-serif';
+}
+
+.col {
+  padding: 0rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+/* = = = loader section = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EBD6C4;
+  z-index: 9999;
+}
+
+.sec-loader {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.star-spinner {
+  shape-rendering: auto;
+}
+
+/* = = = section 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.section1 {
+  background-color: #444444;
+  z-index: 0;
+}
+
+.starVid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-size: contain;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.sec1-title {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 0;
+  width: 90%;
+  height: 10%;
+  z-index: 2;
+}
+
+.sec1-title h3 {
+  margin-top: 2rem;
+  color: #EBD6C4;
+  padding: 0.5rem 0;
+  border-top: 0.1rem solid #EBD6C4;
+  border-bottom: 0.1rem solid #EBD6C4;
+}
+
+.sec1-logo {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+  right: 0;
+  width: 30%;
+  height: auto;
+  z-index: 3;
+}
+
+.sec1-tnz-logo {
+  position: absolute;
+  width: 15%;
+  top: 80%;
+  left: 5%;
+  right: 0;
+  z-index: 3;
+}
+
+.sec1-arrow {
+  position: absolute;
+  top: 85%;
+  right: 5%;
+  width: 5%;
+  height: auto;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.nasa-btn {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  z-index: 2;
+  background-color: #EBD6C4;
+  border: 1px solid #EBD6C4;
+  color: #414042;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-color: #EBD6C4;
+  border-style: none;
+  transition: 0.3s;
+  border-radius: 0.3rem;
+}
+
+/* = = = section 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* = = = slide 1 = = =  */
+.section2 {
+  background-image: url('../img/section2-bkground.jpg');
+  background-size: cover;
+  background-blend-mode: luminosity;
+  background-color: hsla(0, 0%, 0%, 0.63);
+}
+
+.sec2 {
+  width: 50%;
+  height: 65%;
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 0%, 0.63);
+  color: #E5E2DD;
+  border-radius: 1rem;
+}
+
+.sec2-col1 h1 {
+  text-align: right;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid #E5E2DD;
+}
+
+.sec2-logo {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.sec2-title {
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+}
+
+.sec2-col1 h4 {
+  text-align: center;
+}
+
+.guest-qty {
+  display: block;
+  width: 10%;
+  height: 3rem;
+  margin: 0 auto;
+  background-color: #E5E2DD;
+}
+
+.guest-btn {
+  display: block;
+  width: 20%;
+  margin: 1rem auto;
+  background-color: #EBD6C4;
+  color: #444444;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-color: #EBD6C4;
+  border-style: none;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+
+.guest-btn:hover {
+  background-color: #F06839;
+  color: #EBD6C4;
+}
+
+.guest-text {
+  margin: 1rem 0;
+  color: #F06839;
+  text-align: center;
+  border-top: 0.1rem solid #E5E2DD;
+  border-bottom: 0.1rem solid #E5E2DD;
+  padding: 0.5rem 0.5rem;
+}
+
+.parsley-max {
+  color: #F06839;
+}
+
+/* section 3 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+.section3 {
+  background-color: #444444;
+}
+/* = = = slide 2 = = =  */
+.sec3 {
+  width: 50%;
+  height: 65%;
+  margin: 0 auto;
+  color: #E5E2DD;
+  background-color: hsla(0, 0%, 0%, 0.63);
+  border-radius: 1rem;
+}
+
+.sec3-container {
+  height: 100%;
+}
+
+.sec3-title {
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+}
+
+.sec3-container h4 {
+  color: #EBD6C4;
+  text-align: center;
+}
+
+.sec3-col h1 {
+  text-align: right;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid #E5E2DD;
+}
+
+.sec3-logo {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.date-picker {
+  display: block;
+  width: 50%;
+  height: 3rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.days-text {
+  margin: 1rem 0;
+  color: #F06839;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  border-top: 0.1rem solid #E5E2DD;
+  border-bottom: 0.1rem solid #E5E2DD;
+}
+
+/* Section 4 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+/* = = = slide 3 = = =  */
+.sec4-content {
+  display: contents;
+  background-color: blue;
+}
+
+
+.sec4 {
+  background-color: hsla(0, 0%, 0%, 0.63);
+  margin: 0 auto;
+  color: #E5E2DD;
+  width: 80%;
+  height: 80%;
+  border-radius: 1rem;
+}
+
+.sec4-title {
+  border-bottom: 0.1rem solid #E5E2DD;
+  padding: 0.5rem 0.5rem;
+}
+
+.sec4-col1 {
+  background-color: pink;
+  border-right: 0.1rem solid #E5E2DD;
+  width: 100%;
+  height: 100%;
+}
+
+.sec4-num {
+  text-align: right;
+  padding: 3%;
+  border-bottom: 0.1rem solid #E5E2DD;
+}
+
+.sec4-text {
+  text-align: right;
+  padding: 3%;
+}
+
+.sec4-subtext {
+  color: #F06839;
+  text-align: right;
+  padding: 3%;
+}
+
+/* = = = accomodation  = = =  */
+
+.acc1 {
+  display: none;
+}
+
+.acc2 {
+  display: none;
+}
+
+.acc3 {
+  display: none;
+}
+
+.acc4 {
+  display: none;
+}
+
+.acc-img {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0;
+}
+
+.acc-rating {
+  text-align: right;
+  border-top: 0.1rem solid #E5E2DD;
+  border-bottom: 0.1rem solid #E5E2DD;
+}
+
+.acc-rating h4 {
+  display: inline;
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.acc-rating i {
+  display: inline;
+  font-size: 1.8rem;
+  text-align: right;
+}
+
+p {
+  display: inline-block;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.location-btn {
+  display: inline-block;
+  float: right;
+  margin-right: 1rem;
+  background-color: #EBD6C4;
+  color: #444444;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-color: #EBD6C4;
+  border-style: none;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+
+.location-btn:hover {
+  background-color: #F06839;
+  color: #EBD6C4;
+}
+
+.sec4-col2 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.sec4-logo {
+  position: absolute;
+  bottom: 10%;
+  right: 6%;
+  width: 20%;
+  height: auto;
+  z-index: 1000;
+}
+
+/* = = = mapbox styling and positioning = = =  */
+
+.sec4-col2 #map {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.marker {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url('../img/star-marker.png');
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.mapboxgl-popup {
+  color: #E5E2DD;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+  border-bottom-color: #444444;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+  border-top-color: #444444;
+}
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+  border-right-color: #444444;
+}
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+  border-left-color: #444444;
+}
+
+.mapboxgl-popup-content {
+  background-image: linear-gradient(-90deg, hsl(200deg 5% 21%), hsl(200deg 5% 29%) 2em, hsl(200deg 5% 6%));
+}
+
+/* = = = section 5 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.section5 {
+  background-color: #444444;
+  background-image: url('../img/section5-bkground.jpg');
+  background-blend-mode: luminosity;
+  background-size: 100%;
+}
+
+.sec5-col h1 {
+  text-align: right;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid #E5E2DD;
+}
+
+.sec5-total {
+  margin: 1rem 0;
+  text-align: center;
+  border-top: 0.1rem solid #E5E2DD;
+  border-bottom: 0.1rem solid #E5E2DD;
+  padding: 0.5rem 0.5rem;
+}
+
+.sec5 {
+  width: 50%;
+  height: 85%;
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 0%, 0.63);
+  color: #E5E2DD;
+  border-radius: 1rem;
+}
+
+.sec5-container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sec5-col {
+  width: 100%;
+  height: 100%;
+}
+
+.sec5-logo {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: auto;
+}
+
+.sec5-img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.star-img {
+  display: inline;
+  width: 20%;
+}
+
+/* = = = section 6 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.section6 {
+  background-image: linear-gradient(-90deg, hsl(200deg 5% 21%), hsl(200deg 5% 29%) 2em, hsl(200deg 5% 6%));
+}
+
+.nasa-img {
+  background-color: blue;
+  width: 400px;
+  height: auto;
+}
+
+.sec6 {
+  width: 80%;
+  height: 80%;
+  /* background-color: green; */
+  margin: auto;
+  color: #E5E2DD;
+  background-color: hsla(0, 0%, 0%, 0.63);
+  border-radius: 1rem;
+}
+
+.sec6-title {
+  border-bottom: 0.1rem solid #E5E2DD;
+  padding: 0.5rem 0.5rem;
+}
+
+.sec6-col {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.sec6-col2 {
+  width: 100%;
+  height: 100%;
+  border-left: 0.1rem solid #EBD6C4;
+}
+
+.api-btn,
+.sec6-btn {
+  width: 43%;
+  margin: 1rem;
+  background-color: #EBD6C4;
+  font-size: 1.5rem;
+  color: #414042;
+  border: 0.1rem solid #EBD6C4;
+  border-color: #EBD6C4;
+  border-style: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.5rem;
+  z-index: 2;
+  transition: 0.3s;
+}
+
+.api-btn:hover,
+.sec6-btn:hover {
+  background-color: #F06839;
+  color: #EBD6C4;
+}
+
+.api-content {
+  margin: 1rem;
+}
+
+.api-img {
+  width: 90%;
+  height: auto;
+  margin: 1rem;
+}
+
+/* = = = modal section = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+#btn-close-modal {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-container {
+  display: block;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-image: url('../img/modal-bkground.jpg');
+  background-size: cover;
+  color: #EBD6C4;
+  border: none;
+  border-radius: 0;
+}
+
+.modal-section {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 0%, 0.63);
+}
+
+.modal-section h4 {
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.num {
+  margin-top: 5%;
+  padding: 0rem;
+}
+
+.exc-content {
+  height: 80%;
+  padding: 0rem;
+}
+
+.exc2 {
+  border-right: 0.1rem solid #EBD6C4;
+  border-left: 0.1rem solid #EBD6C4;
+}
+
+.exc2 h3,
+.exc1 h3 {
+  text-align: right;
+  padding: 2% 3%;
+}
+
+.exc3 h3 {
+  text-align: right;
+  padding: 2% 6%;
+}
+
+.num h1 {
+  text-align: right;
+  padding: 1% 6%;
+}
+
+.exc-content p {
+  margin: 1rem 1rem;
+  padding: 2% 3%;
+  border-top: 0.1rem solid #EBD6C4;
+  border-bottom: 0.1rem solid #EBD6C4;
+}
+
+.ex1-image {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.exc-btn {
+  display: block;
+  margin: 5rem auto;
+  width: 50%;
+  background-color: #EBD6C4;
+  color: #414042;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-color: #EBD6C4;
+  border-style: none;
+  transition: 0.3s;
+  border-radius: 0.3rem;
+}
+
+.exc-btn:hover {
+  background-color: #F06839;
+  color: #EBD6C4;
+}
+
+.exc-cost {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40%;
+  padding-left: 1rem;
+}
+
+.exc-input {
+  background-color: #EBD6C4;
+  color: #444444;
+  outline: none;
+  border-color: #EBD6C4;
+  border-radius: 0.3rem;
+}
+
+/* = = = end of css  = = = = = = = = = = = = = = = = = = = = = = = = = = */

@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Dark Sky Project",
+        "description": "Dark sky project, observatory, programs and cafe"
+      },
+      "geometry": {
+        "coordinates": [170.477162, -44.003179],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Long Dark Sky",
+        "description": "A lakefront observatory"
+      },
+      "geometry": {
+        "coordinates": [170.476550, -43.991219],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wai-Iti Domain",
+        "description": "Dark Sky Reserve resting sight"
+      },
+      "geometry": {
+        "coordinates": [172.993406, -41.429803],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Red Rocks",
+        "description": "A prime star gazing location in Wellington"
+      },
+      "geometry": {
+        "coordinates": [174.726400, -41.357304],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aoraki Mount Cook",
+        "description": "Aoraki Mount Cook is protected as an International dark sky reserve"
+      },
+      "geometry": {
+        "coordinates": [170.144718, -43.590655],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Queenstown Skyline",
+        "description": "Queenstown Skyline is the perfect spot for star gazing with easy access to the lookout"
+      },
+      "geometry": {
+        "coordinates": [168.659616, -45.030674],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tongariro National Park",
+        "description": "Tongariro National Park offers star gazing within the volcanic park"
+      },
+      "geometry": {
+        "coordinates": [175.621382, -39.154210],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Waikura Dark Sky Reserve",
+        "description": "You will find yourself under a blanket of stars"
+      },
+      "geometry": {
+        "coordinates": [178.163135, -37.714886],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cape Reinga Lighthouse",
+        "description": "The lighthouse makes for per star gazing with reflection over the ocean"
+      },
+      "geometry": {
+        "coordinates": [172.676913, -34.421678],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
