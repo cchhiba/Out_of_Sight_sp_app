@@ -58,6 +58,38 @@ Github has been used to store the files within the repository. You can clone thi
 
 
 
+## Productions Tools and Workflow
+
+## HTML Validation
+The project has been validated using Validator w3 [here](https://validator.w3.org)
+
+1. One error type was received on serveral button tags:
+
+<img src="./img/screenshot2.png" width="auto" height="100px">
+
+The **herf** attribute is needed for the plugin annimatedModal to work and will through an error if the attribute is not mentioned. 
+
+2. There was a Favicon error which has been remedied by using the below link tag in between the **<head>** tags within the HTML markup. 
+
+`<link rel="shortcut icon" href="#" />`
+
+
+## CSS Validation
+The project has been validated using Jigsaw w3 [here](https://jigsaw.w3.org/css-validator/)
+
+There were no errors received.
+
+
+## JS Validation
+The project has been validated here: https://jshint.com/
+There were no errors received.
+It shows there is an unsused variable on line 272. This variable cannot be deleted as the code has been copied from mapbox.
+
+
+## JS Style Guide
+
+> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
+
 
 
 
@@ -75,29 +107,8 @@ List the ready features here:
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## HTML Validation
-The project has been validated here: https://validator.w3.org 
-1 error was received on serveral button tags:
-<img src="./img/screenshot2.png" width="auto" height="100px">
-The 'herf' tag is needed for annimatedModal and will not work without the tag.
-
-There was a Favicon error which has been remedied by using the below link tag in between the head tags. 
-
-`<link rel="shortcut icon" href="#" />`
-
-## CSS Validation
-The project has been validated here: https://jigsaw.w3.org/css-validator/
-There were no errors received.
-
-## JS Validation
-The project has been validated here: https://jshint.com/
-There were no errors received.
-It shows there is an unsused variable on line 272. This variable cannot be deleted as the code has been copied from mapbox.
 
 
-## JS Style Guide
-
-> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
 
 
  
