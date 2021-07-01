@@ -42,8 +42,8 @@ List the ready features here:
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup and Installation
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## HTML Validation
+The project has been validated with https://validator.w3.org
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
