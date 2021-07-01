@@ -3,11 +3,10 @@
 # Out of Sight - Accomodation and Excursion Booking Application. 
 > Out of Sight is a single page accomodation booking application which offers star gazing excursions and accomodation near New Zealand's dark sky reserves. Users will complete inputs which validate their information, and Out of Sight will display accomodation best suited to them. Once accomodation and an excursion option is selected, Out of Sight will present the users wit their reservation details. The user can then choose to contact Out of Sights Booking Team if they wish to complete their booking.
 
-> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Productions Tools and Workflow](#Productions Tools and Workflow)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
@@ -24,10 +23,22 @@
 - The application allows users to input information, validate the information and display meaningful feedback.
 
 
-## Technologies Used
-- Atom Editor - version 1.55.0 x64
+## Productions Tools and Workflow
+
+#### Atom Editor - version 1.55.0 x64
+
+
 - Google Chrome - version 91.0.4472.114
-- Illustrator 
+- Adobe Illustrator 
+
+
+
+
+
+
+
+
+
 
 
 ## Features
@@ -67,7 +78,7 @@ It shows there is an unsused variable on line 272. This variable cannot be delet
 > idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
 
 
-## Productions Tools  
+ 
 
 ### JavaScript Libraries
   * bootstrap
