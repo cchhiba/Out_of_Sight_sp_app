@@ -111,19 +111,22 @@ Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.
 4. Single quotation marks used instead of double quotation marks. Where doubles have been used in certain areas of the code, this is due to having copied code from Mapbox and Nasa api. Changing the doubles to singles will break the code. 
 5.Variables listed at the top of function scope. 
 
+ 
+ 
+## Features
 
-## JavaScript Libraries
-  * bootstrap
-  * mapbox
-  * jquery
-  * Font awesome
+### **JavaScript Libraries**
+  * Bootstrap
+  * Mapbox
+  * jQuery
+  * Font Awesome
   * Parsely
 
 
-## Plugins
-  * Spinner
-  * Date picker
-  * Nasa
+### **Plugins**
+  * Spinner (loader)
+  * Date Picker
+  * Nasa Apod API
   * Gulp
   * Fullpage.js
   * annimatedModal
