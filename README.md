@@ -25,7 +25,7 @@
 
 ## Productions Tools and Workflow
 
-#### Atom Editor - version 1.55.0 x64
+#### *Atom Editor - version 1.55.0 x64*
 
 Atom was used as tool for seamlessly editing code. The benefit of atom is that it highlights files to you that have they have not been pushed to Github. Code is colour coded for ease on the eye. You can install packages to help and guide you while writing code. I installed packages atom-beautify 0.33.2 and atom-live-server 2.3.0.  
 
