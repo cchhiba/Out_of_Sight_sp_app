@@ -28,6 +28,7 @@
 ## Technologies Used
 - Atom Editor - version 1.55.0 x64
 - Google Chrome - version 91.0.4472.114
+- Illustrator 
 
 
 ## Features
