@@ -124,10 +124,9 @@ Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.
 
 
 ### **Plugins**
-  * Spinner (loader)
+  * Loading.io
   * Date Picker
   * Nasa Apod API
-  * Gulp
   * Fullpage.js
   * annimatedModal
 
