@@ -45,7 +45,7 @@ List the ready features here:
 ## HTML Validation
 The project has been validated with https://validator.w3.org 
 I received the below error on serveral button tags:
-<img src="./img/screenshot2.png" width="200" height="auto">
+<img src="./img/screenshot2.png" width="auto" height="200px">
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
