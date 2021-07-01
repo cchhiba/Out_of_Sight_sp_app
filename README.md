@@ -118,8 +118,8 @@ Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.
 
 ### **JavaScript Libraries**
   * Bootstrap
-    ** Tooltip on home screen button
-    ** Layout
+    ..* Tooltip on home screen button
+    ..* Layout
   * Mapbox
   * jQuery
   * Font Awesome
