@@ -6,7 +6,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Productions Tools and Workflow](#Productions Tools and Workflow)
+* [Productions Tools and Workflow](#Productions-tools-and-workflow)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
