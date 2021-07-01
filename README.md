@@ -30,29 +30,29 @@
 Atom was used as tool for seamlessly editing code. The benefit of atom is that it highlights files to you that have they have not been pushed to Github. Code is colour coded for ease on the eye. You can install packages to help and guide you while writing code. I installed packages atom-beautify 0.33.2 and atom-live-server 2.3.0.  
 
 
-#### Google Chrome - version 91.0.4472.114
+#### *Google Chrome - version 91.0.4472.114*
 
 I used Google Chrome’s console by ‘right-clicking’ >> inspect. I was able to monitor issues that appeared in the browser while writing and testing code, this allowed me to quickly resolve errors.  
 
 
-#### Adobe Illustrator 
+#### *Adobe Illustrator*
 
 I used ai as tool for creating design layouts in the form of hi-fis. The brand logo was created in ai, along with small components used on the website. 
 
 
-#### Birme
+#### *Birme*
 
 Birme was used to re-size groups of images at the same time.
 
 Find the link [here](https://www.birme.net/?target_width=2500&target_height=1400&auto_focal=false&quality_jpeg=100&quality_webp=100).
 
 
-#### Gulp 
+#### *Gulp* 
 
 Gulp has been used along with the Mac Terminal as a live linting tool for the custom.js file. It complied the SASS file and minified the custom.css file. Gulp also helped by live reloading the application in the browser whenever I saved the code files.  
 
 
-#### Github
+#### *Github*
 
 Github has been used to store the files within the repository. You can clone this folder for yourself. 
 
@@ -60,7 +60,7 @@ Github has been used to store the files within the repository. You can clone thi
 
 ## Productions Tools and Workflow
 
-## HTML Validation
+### *HTML Validation*
 The project has been validated using Validator w3 [here](https://validator.w3.org)
 
 1. One error type was received on serveral button tags:
@@ -74,7 +74,8 @@ The **herf** attribute is needed for the plugin annimatedModal to work and will 
 `<link rel="shortcut icon" href="#" />`
 
 
-## CSS Validation
+### *CSS Validation*
+ 
 The project has been validated using Jigsaw w3 [here](https://jigsaw.w3.org/css-validator/)
 
 There were no errors received.
