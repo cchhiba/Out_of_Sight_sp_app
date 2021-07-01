@@ -117,21 +117,36 @@ Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.
 ## Features
 
 ### **JavaScript Libraries**
-  * Bootstrap
-    ..* Tooltip on home screen button
-    ..* Layout
-  * Mapbox
-  * jQuery
-  * Font Awesome
-  * Parsely
+ 
+1. Bootstrap
+  * Tooltip on home screen button
+  * Layout
+2. Mapbox
+  * Dark theme styling
+  * Layer map with orange dots for places of interest
+  * popup boxes -styles
+  * Designed own markers
+  * zoom in and out controls
+3. jQuery
+4. Font Awesome
+ * Icons used throughout app UI
+5. Parsely
+ * feedback validation at guest section
 
 
 ### **Plugins**
-  * Loading.io
-  * Date Picker
-  * Nasa Apod API
-  * Fullpage.js
-  * annimatedModal
+ 
+1. Loading.io
+  * Eclipse loader when app opens
+2. Date Picker
+ * Ui feature used to user did not have to type the date.
+3. Nasa Apod API
+  * Add interest to the application and gets users excited to use the app
+  * Please note, on the odd occasion Nasa will post a video of the day, instead of an image of the day. For security reasons Chrome will not play any videos from the API.
+4. Fullpage.js
+  * page slides and transitions
+5. annimatedModal
+  * creates a modal which presents excursions
 
 
 ## Project Status
