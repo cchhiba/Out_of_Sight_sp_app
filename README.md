@@ -7,8 +7,9 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Productions Tools and Workflow](#Productions-tools-and-workflow)
-* [Features](#features)
 * [Validation](#validation)
+* [JS Style Guide](#js-style-guide)
+* [Features](#features)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -145,7 +146,7 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
+
 - Many thanks to everyone who helped me in some way or another to complete this project, the many resources found online to find inspiration and all the open-source plugins, libraries and api used. 
 
 
