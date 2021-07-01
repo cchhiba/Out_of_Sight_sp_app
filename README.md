@@ -27,9 +27,21 @@
 
 #### Atom Editor - version 1.55.0 x64
 
+Atom was used as tool for seamlessly editing code. The benefit of atom is that it highlights files to you that have they have not been pushed to Github. Code is colour coded for ease on the eye. You can install packages to help and guide you while writing code. I installed packages atom-beautify 0.33.2 and atom-live-server 2.3.0.  
 
-- Google Chrome - version 91.0.4472.114
-- Adobe Illustrator 
+
+#### Google Chrome - version 91.0.4472.114
+
+I used Google Chrome’s console by ‘right-clicking’ >> inspect. I was able to monitor issues that appeared in the browser while writing and testing code, this allowed me to quickly resolve errors.  
+
+
+#### Adobe Illustrator 
+
+I used ai as tool for creating design layouts in the form of hi-fis. The brand logo was created in ai, along with small components used on the website. 
+
+
+
+
 
 
 
@@ -127,7 +139,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@cchiba](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@cchiba](https://www.flynerd.pl/) - feel free to contact me if you have any questions or queries!
 
 
 <!-- Optional -->
