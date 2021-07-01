@@ -1,5 +1,4 @@
-
-![Example screenshot] <img src="./img/readme-logo.png" alt="alt text" width="500" height="auto">
+<img src="./img/readme-logo.png" width="500" height="auto">
 
 # Out of Sight Accomodation Booking Application
 > Out of Sight is a single page accomodation booking application which offers star gazing excursions and accomodation near New Zealand's dark sky reserves. Users will complete inputs which validate their information, and Out of Sight will display accomodation best suited to them. Once accomodation and an excursion option is selected, Out of Sight will present the users reservation details. The user can then choose to contact Out of Sights Booking Team via email if they wish to complete their booking.
@@ -44,7 +43,9 @@ List the ready features here:
 
 
 ## HTML Validation
-The project has been validated with https://validator.w3.org
+The project has been validated with https://validator.w3.org 
+I received the below error on serveral button tags:
+<img src="./img/screenshot2.png" width="200" height="auto">
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
