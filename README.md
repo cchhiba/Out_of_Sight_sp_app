@@ -3,7 +3,7 @@
 # Out of Sight - Accomodation and Excursion Booking Application. 
 > Out of Sight is a single page accomodation booking application which offers star gazing excursions and accomodation near New Zealand's dark sky reserves. Users will complete inputs which validate their information, and Out of Sight will display accomodation best suited to them. Once accomodation and an excursion option is selected, Out of Sight will present the users wit their reservation details. The user can then choose to contact Out of Sights Booking Team if they wish to complete their booking.
 
-> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js). <!-- If you have the project hosted somewhere, include the link here. -->
+> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -62,6 +62,9 @@ There were no errors received.
 It shows there is an unsused variable on line 272. This variable cannot be deleted as the code has been copied from mapbox.
 
 
+## JS Style Guide
+
+> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
 
 
 ## Productions Tools  
