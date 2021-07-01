@@ -40,11 +40,21 @@ I used Google Chrome’s console by ‘right-clicking’ >> inspect. I was able 
 I used ai as tool for creating design layouts in the form of hi-fis. The brand logo was created in ai, along with small components used on the website. 
 
 
+#### Birme
+
+Birme was used to re-size groups of images at the same time.
+
+[ link_here_](https://www.birme.net/?target_width=2500&target_height=1400&auto_focal=false&quality_jpeg=100&quality_webp=100).
 
 
+#### Gulp 
+
+Gulp has been used along with the Mac Terminal as a live linting tool for the custom.js file. It complied the SASS file and minified the custom.css file. Gulp also helped by live reloading the application in the browser whenever I saved the code files.  
 
 
+#### Github
 
+Github has been used to store the files within the repository. You can clone this folder for yourself. 
 
 
 
