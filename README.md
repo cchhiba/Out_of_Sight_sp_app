@@ -1,5 +1,5 @@
 
-![Example screenshot] <img src="./img/readme-logo.png" alt="alt text" width="100px" height="100px">
+![Example screenshot] <img src="./img/readme-logo.png" alt="alt text" width="500" height="auto">
 
 # Out of Sight Accomodation Booking Application
 > Out of Sight is a single page accomodation booking application which offers star gazing excursions and accomodation near New Zealand's dark sky reserves. Users will complete inputs which validate their information, and Out of Sight will display accomodation best suited to them. Once accomodation and an excursion option is selected, Out of Sight will present the users reservation details. The user can then choose to contact Out of Sights Booking Team via email if they wish to complete their booking.
