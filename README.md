@@ -8,14 +8,13 @@
 * [General Info](#general-information)
 * [Productions Tools and Workflow](#Productions-tools-and-workflow)
 * [Features](#features)
-* [Screenshots](#screenshots)
+* [Validation](#validation)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+
 
 
 ## General Information
@@ -58,9 +57,10 @@ Github has been used to store the files within the repository. You can clone thi
 
 
 
-## Productions Tools and Workflow
+## Validation
 
 ### *HTML Validation*
+
 The project has been validated using Validator w3 [here](https://validator.w3.org)
 
 1. One error type was received on serveral button tags:
@@ -74,19 +74,33 @@ The **herf** attribute is needed for the plugin annimatedModal to work and will 
 `<link rel="shortcut icon" href="#" />`
 
 
+ 
 ### *CSS Validation*
  
 The project has been validated using Jigsaw w3 [here](https://jigsaw.w3.org/css-validator/)
 
-There were no errors received.
+1. There were no errors received.
 
+ 
 
-## JS Validation
-The project has been validated here: https://jshint.com/
-There were no errors received.
-It shows there is an unsused variable on line 272. This variable cannot be deleted as the code has been copied from mapbox.
+## *JS Validation*
+ 
+The project has been validated using jsHint [here](https://jshint.com/)
+ 
+1. There were no errors received.
+ 
+2. However it does show one unsused variable on line 272 called **popup.** This variable cannot be deleted as the code has been copied from mapbox and will break the map when removed. 
 
+The project has been validated using jsHint [here](https://gulpjs.com/)
+ 
+1. There was one error, please see below. This is due to the use of a **async function** being used. This code was copied and requires this type of function when using the Nasa apod api. 
+ 
+ <img src="./img/screenshot1.png" width="auto" height="100px">
+ 
 
+ 
+ 
+ 
 ## JS Style Guide
 
 > idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
