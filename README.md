@@ -44,7 +44,7 @@ I used ai as tool for creating design layouts in the form of hi-fis. The brand l
 
 Birme was used to re-size groups of images at the same time.
 
-[ link_here_](https://www.birme.net/?target_width=2500&target_height=1400&auto_focal=false&quality_jpeg=100&quality_webp=100).
+Find the link [here](https://www.birme.net/?target_width=2500&target_height=1400&auto_focal=false&quality_jpeg=100&quality_webp=100).
 
 
 #### Gulp 
