@@ -19,6 +19,7 @@
 ## General Information
 - The single page web application was built as part of a Yoobee Web & UX design summative assignment.
 - The application allows users to input information, validate the information and display meaningful feedback.
+- Website is not responsive and has been creates for a full desktop screen width on a Yoobee screen computer. 
 
 
 ## Productions Tools and Workflow
@@ -117,6 +118,8 @@ Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.
 
 ### **JavaScript Libraries**
   * Bootstrap
+    ** Tooltip on home screen button
+    ** Layout
   * Mapbox
   * jQuery
   * Font Awesome
@@ -136,15 +139,13 @@ Project is: _complete_
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Improvement layout and make application responsive
+- Improvement input styling
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Feature to be added: css annimations
 
 
 ## Acknowledgements
