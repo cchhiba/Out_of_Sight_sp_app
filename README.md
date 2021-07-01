@@ -1,5 +1,5 @@
 
-
+![Example screenshot](./img/deep-orange-logo.svg)
 
 # Out of Sight Accomodation Booking Application
 > Out of Sight is a single page accomodation booking application which offers star gazing excursions and accomodation near New Zealand's dark sky reserves. Users will complete inputs which validate their information, and Out of Sight will display accomodation best suited to them. Once accomodation and an excursion option is selected, Out of Sight will present the users reservation details. The user can then choose to contact Out of Sights Booking Team via email if they wish to complete their booking.
@@ -42,8 +42,8 @@ List the ready features here:
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup and Installation
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## HTML Validation
+The project has been validated with https://validator.w3.org
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
