@@ -43,18 +43,25 @@ List the ready features here:
 
 
 ## HTML Validation
-The project has been validated with https://validator.w3.org 
-I received the below error on serveral button tags:
+The project has been validated here: https://validator.w3.org 
+1 error was received on serveral button tags:
 <img src="./img/screenshot2.png" width="auto" height="100px">
+The 'herf' tag is needed for annimatedModal and will not work without the tag.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+There was a Favicon error which has been remedied by using the below link tag in between the head tags. 
+
+`<link rel="shortcut icon" href="#" />`
+
+## CSS Validation
+The project has been validated here: https://jigsaw.w3.org/css-validator/
+There were no errors received.
+
+## JS Validation
+The project has been validated here: https://jshint.com/
+There were no errors received.
+It shows there is an unsused variable on line 272. This variable cannot be deleted as the code has been copied from mapbox.
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
 
 
 ## Productions Tools  
@@ -64,7 +71,7 @@ Provide various use cases and code examples here.
   * mapbox
   * jquery
   * Font awesome
-  * Annimations library
+
 
 ### Plugins
   * Spinner
@@ -72,6 +79,7 @@ Provide various use cases and code examples here.
   * Nasa
   * Gulp
   * Fullpage.js
+  * annimatedModal
 
 
 
