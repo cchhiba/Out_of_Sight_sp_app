@@ -9,8 +9,6 @@
 * [Productions Tools and Workflow](#Productions-tools-and-workflow)
 * [Features](#features)
 * [Validation](#validation)
-* [Setup](#setup)
-* [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -130,13 +128,9 @@ Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.
   * annimatedModal
 
 
-
 ## Project Status
-Project is: _complete_
+Project is: _complete_ 
 
-## Validation Statement
-Validation statement for .js/.css & html
-Description of your validation and justification of any errors
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
@@ -149,19 +143,14 @@ To do:
 - Feature to be added 1
 - Feature to be added 2
 
-## Productions Tools  
-
-## Favicon error in html
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Many thanks to everyone who helped me in some way or another to complete this project, the many resources found online to find inspiration and all the open-source plugins, libraries and api used. 
 
 
 ## Contact
-Created by [@cchiba](https://www.flynerd.pl/) - feel free to contact me if you have any questions or queries!
+Created by [@cchiba](charissa_chhiba@hotmail.com) - feel free to contact me if you have any questions or queries!
 
 
 <!-- Optional -->
