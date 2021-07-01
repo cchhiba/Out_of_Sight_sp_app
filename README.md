@@ -75,7 +75,7 @@ The **herf** attribute is needed for the plugin annimatedModal to work and will 
 
 
  
-### *CSS Validation*
+#### *CSS Validation*
  
 The project has been validated using Jigsaw w3 [here](https://jigsaw.w3.org/css-validator/)
 
@@ -83,7 +83,7 @@ The project has been validated using Jigsaw w3 [here](https://jigsaw.w3.org/css-
 
  
 
-## *JS Validation*
+### *JS Validation*
  
 The project has been validated using jsHint [here](https://jshint.com/)
  
@@ -98,44 +98,30 @@ The project has been validated using jsHint [here](https://gulpjs.com/)
  <img src="./img/screenshot1.png" width="auto" height="100px">
  
 
- 
- 
+
  
 ## JS Style Guide
 
-> idiomatic javascript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
-
-
-
-
-
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-
-
-
-
+Idiomatic javaScript style guide [_here_](https://github.com/rwaldron/idiomatic.js).
  
+**The main take outs from the standard are as follows:** 
 
-### JavaScript Libraries
+1. White space used within parentheses and array brackets. 
+2. White space between functions and their content 
+3. Comments used throughout the markup to highlight certain sections which link back the HTML markup. 
+4. Single quotation marks used instead of double quotation marks. Where doubles have been used in certain areas of the code, this is due to having copied code from Mapbox and Nasa api. Changing the doubles to singles will break the code. 
+5.Variables listed at the top of function scope. 
+
+
+## JavaScript Libraries
   * bootstrap
   * mapbox
   * jquery
   * Font awesome
+  * Parsely
 
 
-### Plugins
+## Plugins
   * Spinner
   * Date picker
   * Nasa
